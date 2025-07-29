@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hermione</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #F5F5DC;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #800020;
+            color: white;
+            max-width: 1200px;
+            height: 750px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 600px;
+            height: auto;
+
+        }
+
+        .card-text {
+            padding: 40px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-text h5 {
+            margin: 0;
+            font-size: 14px;
+            color: #f3d8d8;
+            letter-spacing: 1px;
+        }
+
+        .card-text h2 {
+            font-size: 28px;
+            margin: 10px 0;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .card-text p {
+            font-size: 16px;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #e6e6e6;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 30px;
+            width: fit-content;
+            transition: background 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: #800020;
+        }
+
+        .hero {
+            background-image: url("https://contentful.harrypotter.com/usf1vwtuqyxm/4tNCXEveHBZWp1AgccZg52/39c30ab4bc67842362b78ca5ab8e0eef/HP-F4-goblet-of-fire-hermione-great-hall-smiling-book-web-landscape?q=75&fm=webp&w=2880");
+
+            position: relative;
+            height: 650px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        Hermione Granger
+    </section>
+    <div class="card">
+        <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/5aJclseoYsrr4a0y0XPiQY/be44e1bfabc2a5f7422ed6e87a5df30e/HP-F7-deathly-hallows-part-one-hermione-bill-fleur-wedding-red-dress-web-landscape?q=75&fm=webp&w=1400&h=1400&fit=fill&f=top"
+            alt="Hermione Granger">
+
+        <div class="card-text">
+            <h5>Hermione Granger</h5>
+            <h2>Fearless and Fierce – Hermione Granger’s Power Shines Through</h2>
+            <p>Hermione Granger was the cleverest witch of her age and one of Harry Potter’s closest friends. A true
+                Gryffindor, her combination of brains and bravery meant she played a vital role in defeating Lord
+                Voldemort. But there is more to this Muggle-born than just books and cleverness. Don’t just take our
+                word for it, see for yourself…</p>
+            <a href="https://www.harrypotter.com/fact-file/characters-and-pets/hermione-granger" class="btn">Learn More</a>
+        </div>
+    </div>
+</body>
+
+</html>

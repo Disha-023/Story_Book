@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dumbledore</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color:#D8C8E2 ;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #3C2F54;
+            color: white;
+            max-width: 1200px;
+            height: 750px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 600px;
+            height: auto;
+
+        }
+
+        .card-text {
+            padding: 40px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-text h5 {
+            margin: 0;
+            font-size: 14px;
+            color: #f3d8d8;
+            letter-spacing: 1px;
+        }
+
+        .card-text h2 {
+            font-size: 28px;
+            margin: 10px 0;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .card-text p {
+            font-size: 16px;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #e6e6e6;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 30px;
+            width: fit-content;
+            transition: background 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color:#3C2F54 ;
+        }
+
+        .hero {
+            background-image: url("https://contentful.harrypotter.com/usf1vwtuqyxm/3BJZavhBZMxogQwDFJRGvi/d5bb755d86661e1e023a13e1640d8881/albus-dumbledore_2_1800x1248.png?q=75&fm=webp&w=1200&h=832&fit=pad");
+
+            position: relative;
+            height: 650px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+        Albus Dumbledore
+    </section>
+    <div class="card">
+        <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/6gN8ITK962LpLZS7bJHcaP/d0d0b5c879f645566b120d0df4af8147/albus-dumbledore_5_1800x1248.png?q=75&fm=webp&w=1200&h=832&fit=pad"
+            alt="Dumbledore">
+
+        <div class="card-text">
+            <h5>Albus Dumbledore</h5>
+            <h2> Albus Dumbledore – The Wisdom Behind the Wand</h2>
+            <p>
+                Dumbledore, the greatest wizard of his time, led with wisdom, compassion, and quiet strength. As
+                Headmaster of Hogwarts, he guided generations with a belief in love, choice, and the power of goodness.
+                Though mysterious and complex, his heart always stood on the side of light. His legacy lives on in every
+                lesson he left behind.
+
+
+            </p>
+            <a href="https://www.harrypotter.com/fact-file/characters-and-pets/albus-dumbledore" class="btn">Learn
+                More</a>
+        </div>
+    </div>
+</body>
+
+</html>

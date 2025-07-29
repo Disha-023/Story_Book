@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Severous Snape</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color:#434343 ;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #2B2B2B;
+            color: white;
+            max-width: 1200px;
+            height: 750px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 600px;
+            height: auto;
+
+        }
+
+        .card-text {
+            padding: 40px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-text h5 {
+            margin: 0;
+            font-size: 14px;
+            color: #f3d8d8;
+            letter-spacing: 1px;
+        }
+
+        .card-text h2 {
+            font-size: 28px;
+            margin: 10px 0;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .card-text p {
+            font-size: 16px;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #e6e6e6;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 30px;
+            width: fit-content;
+            transition: background 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: #2B2B2B;
+        }
+
+        .hero {
+            background-image: url("https://contentful.harrypotter.com/usf1vwtuqyxm/4VsDZyHYVYELzRyW3uaUF9/c2473f68513783bc5cdd0d60cf5da0e2/WB-HP-F8-young-snape-in-forest.jpg?q=75&fm=webp&w=1536&h=1576");
+
+            position: relative;
+            height: 85vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+    Severous Snape
+    </section>
+    <div class="card">
+        <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/309g5fnM3VpztMxhXIScmd/d3f0cd37674f68c01be3a933d7b903a8/WB-F5-order-of-phoenix-snape-potions.jpg?q=75&fm=webp&w=488&h=488&fit=fill&f=top"
+            alt="Severous Snape">
+
+        <div class="card-text">
+            <h5>Severous Snape</h5>
+            <h2>The Shadowed Hero of Hogwarts</h2>
+            <p>
+Despite his cold demeanor and mysterious presence,
+Severus Snape was one of the most courageous wizards.
+He lived a life of sacrifice, fueled by unspoken love and loyalty.
+In the end, he was not just a Slytherin professor —
+he was a protector, a spy, and a silent savior.
+</p>
+            <a href="https://www.harrypotter.com/fact-file/characters-and-pets/severus-snape" class="btn">Learn More</a>
+        </div>
+    </div>
+</body>
+
+</html>

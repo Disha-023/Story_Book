@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Houses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <style>
+        body {
+
+
+            background-image: url('https://www.harrypotter.com/assets/_next/static/images/background-stars@2x-14b9aebb404eb0606452427d794020cf.jpg');
+            margin: 0;
+            padding: 0;
+
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 100vh;
+            background-attachment: fixed;
+            image-rendering: auto;
+            filter: contrast(105%) brightness(105%);
+        }
+
+        .corner-image {
+            position: absolute;
+            width: 400px;
+            height: 800px;
+            z-index: 10;
+            pointer-events: none;
+        }
+
+        .top-left {
+            top: 0;
+            left: 0;
+            margin: 10px;
+        }
+
+        .top-right {
+            top: 0;
+            right: 0;
+            margin: 10px;
+        }
+
+        .center-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            width: 100%;
+            position: relative;
+        }
+
+        .center-image {
+            max-width: 600px;
+            height: auto;
+        }
+
+        .heading {
+            text-align: center;
+            color: white;
+            font-size: 80px
+        }
+
+        .card {
+            display: flex;
+
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .card1 {
+            display: flex;
+            flex-direction: row-reverse;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
+            max-width: 1200px;
+            margin: 40px auto;
+        }
+
+        .card-image img {
+            width: 300px;
+            height: 300px;
+            display: block;
+        }
+
+
+        .card-text {
+            padding: 20px;
+            display: flex;
+            color: white;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        footer {
+  margin-top: 0px;
+  border: 2px solid gold;
+  padding-top: 0;
+  font-family: "Cinzel", serif;
+}
+
+.foot-panel1 {
+  background-color: rgb(16, 20, 27);
+  color: white;
+  height: 100px;
+  display: flex;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #dddddd;
+  font-size: 15px;
+  display: block;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+ul li a:hover {
+  color: gold;
+}
+
+.foot-panel2 {
+  background-color: rgb(16, 20, 27);
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo1 {
+  background-image: url("https://www.harrypotter.com/assets/_next/static/images/logo-gold-600-7a7e89b6db1ffeaab025f2091d21b645.png");
+  background-size: cover;
+  padding-top: 5px;
+  height: 51px;
+  width: 158px;
+}
+
+.foot-panel3 {
+  background-color: rgb(16, 20, 27);
+  color: white;
+  font-size: 15px;
+  height: 50px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  align-items: center;
+}
+
+.social-icons {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons .icon {
+  color: #ffffff; 
+  font-size: 24px;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons .icon:hover {
+  color: gold;
+  transform: scale(1.2);
+}
+    </style>
+</head>
+
+<body>
+
+    <body>
+        <img src="https://cdn-quidditchchampions.wbgames.com/retail/banners-left.webp" class="corner-image top-left"
+            alt="Top Left">
+        <img src="https://cdn-quidditchchampions.wbgames.com/retail/banners-right.webp" class="corner-image top-right"
+            alt="Top Right">
+
+        <div class="center-container">
+            <img src="https://www.harrypotter.com/assets/_next/static/images/sorting-hat-768-c1739973b4e53269f48e0e4390a48a05.png"
+                alt="Centered Image" class="center-image">
+        </div>
+
+        <h1 class="heading">Which house do you belong to?🪄</h1>
+        <div class="card">
+            <div class="card-image">
+                <img src="https://www.harrypotter.com/images/pages/leaderboard/gryffindor.svg" alt="Card Image">
+            </div>
+            <div class="card-text">
+                <h2 style="font-size:50px">Gryffindor</h2>
+                <p style="font-size:30px">The house of the lion. Helmed by Godric Gryffindor, this group of Hogwarts
+                    students tend to be braver
+                    than most, and able to hold their nerve in difficult situations.</p>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card-image">
+                <img src="https://www.harrypotter.com/images/pages/leaderboard/slytherin.svg" alt="Card Image">
+            </div>
+            <div class="card-text">
+                <h2 style="font-size:50px">Slytherin</h2>
+                <p style="font-size:30px">The house of the snake! Sss! As founded by Salazar Slytherin, this house
+                    doesn't have the best reputation. But without Slytherin, you wouldn't have the likes of the great
+                    wizard Merlin - or the adorable Scorpius Malfoy. Beyond cunning and determination, this house has
+                    hidden depths.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-image">
+                <img src="https://www.harrypotter.com/images/pages/leaderboard/hufflepuff.svg" alt="Card Image">
+            </div>
+            <div class="card-text">
+                <h2 style="font-size:50px">Hufflepuff</h2>
+                <p style="font-size:30px">The house of the badger! Hufflepuffs are known for being kind and
+                    hard-working, as was their house-founder, Helga Hufflepuff, known for her warmth of character and
+                    bountiful beasts. We could all do with more Hufflepuffs in our life.
+                </p>
+            </div>
+        </div>
+
+        <div class="card1">
+            <div class="card-image">
+                <img src="https://www.harrypotter.com/images/pages/leaderboard/ravenclaw.svg" alt="Card Image">
+            </div>
+            <div class="card-text">
+                <h2 style="font-size:50px">Ravenclaw</h2>
+                <p style="font-size:30px">The house of the eagle! Rowena Ravenclaw championed those of wit and learning,
+                    and Ravenclaw is exactly that. The likes of Cho Chang, Luna Lovegood and Ignatia Wildsmith, the
+                    inventor of Floo Powder, hail from this house - and you even need to solve a riddle to get into the
+                    Ravenclaw common room. Wit beyond measure truly is man's greatest treasure if you get sorted here.
+                </p>
+            </div>
+        </div>
+
+        <footer>
+
+            <div class="foot-panel1">
+                <ul>
+
+                    <li><a href="https://www.harrypotter.com/press">Press</a></li>
+                    <li><a href="https://help.harrypotter.com/hc/en-us">FAQs</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <li><a href="https://www.harrypotter.com/terms">Terms & Conditions</a></li>
+                    <li><a href="https://www.harrypotter.com/privacy#choices">Ad Choices</a></li>
+                    <li><a href="https://www.harrypotter.com/privacy">Privacy & Cookies</a></li>
+
+                </ul>
+
+                <ul>
+
+                    <li><a href="https://www.harrypotter.com/childrens-privacy-policy">Children's Privacy Policy</a>
+                    </li>
+                    <li><a href="https://www.harrypotter.com/legals">Legals</a></li>
+                    <li><a href="https://www.startingharrypotter.com/">Starting Harry Potter</a></li>
+
+                </ul>
+            </div>
+            <div class="foot-panel2">
+                <div class="logo1"></div>
+            </div>
+
+            <div class="foot-panel3">
+
+                <div class="copyright" style="text-align: center;">All characters and elements © & TM Warner Bros.
+                    Entertainment Inc. Publishing Rights © J.K. Rowling.</div>
+
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/harrypotter/" target="_blank" class="icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/harrypotter" target="_blank" class="icon"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.youtube.com/channel/UChPRO1CB_Hvd0TvKRU62iSQ" target="_blank" class="icon"><i
+                            class="fab fa-youtube"></i></a>
+
+                </div>
+        </footer>
+
+    </body>
+
+</html>

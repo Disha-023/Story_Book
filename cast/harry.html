@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background-color: #F5F3EF   ;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: row;
+            background-color: #5A3E36 ;
+            color: white;
+            max-width: 1200px;
+            height: 750px;
+            margin: 50px auto;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .card img {
+            width: 600px;
+            height: auto;
+
+        }
+
+        .card-text {
+            padding: 40px;
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .card-text h5 {
+            margin: 0;
+            font-size: 14px;
+            color: #f3d8d8;
+            letter-spacing: 1px;
+        }
+
+        .card-text h2 {
+            font-size: 28px;
+            margin: 10px 0;
+            font-weight: bold;
+            line-height: 1.4;
+        }
+
+        .card-text p {
+            font-size: 16px;
+            margin: 20px 0;
+            line-height: 1.6;
+            color: #e6e6e6;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background-color: transparent;
+            border: 2px solid white;
+            color: white;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: 30px;
+            width: fit-content;
+            transition: background 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: #5A3E36;
+        }
+
+        .hero {
+            background-image: url("https://contentful.harrypotter.com/usf1vwtuqyxm/35jA9TuLkkQdxiZ909b9MH/0a2fdf00fb5d729fe171c53c4511cb66/harry-potter_10_1800x1248.png?q=75&fm=webp&w=1200&h=832&fit=pad");
+
+            position: relative;
+            height: 650px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            font-size: 100px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero">
+       Harry Potter
+    </section>
+    <div class="card">
+        <img src="https://contentful.harrypotter.com/usf1vwtuqyxm/7KKFvaybBzplMRZ9bAk58t/eef5cf5e1482c5dcda4774448caf034f/harry-potter_3_1800x1248.png?q=75&fm=webp&w=1200&h=832&fit=pad"
+            alt="Harry">
+
+        <div class="card-text">
+            <h5>Harry Potter</h5>
+            <h2>Harry Potter: The Name That Echoes Through Time</h2>
+            <p>"The Boy Who Lived" wasn’t just a title — it was a reminder that courage can grow from the darkest of places.
+Harry Potter stood not because he was fearless, but because he chose to fight even when he was afraid.
+He showed us that kindness, loyalty, and love can defeat the darkest magic.
+From the cupboard under the stairs to saving the wizarding world — his journey inspired millions.
+He wasn’t born a hero — he became one.
+
+</p>
+            <a href="https://www.harrypotter.com/fact-file/characters-and-pets/harry-potter" class="btn">Learn More</a>
+        </div>
+    </div>
+</body>
+
+</html>
